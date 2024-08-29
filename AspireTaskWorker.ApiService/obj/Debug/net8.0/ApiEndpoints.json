@@ -11,7 +11,7 @@
   },
   {
     "ContainingType": "AspireTaskWorker.ApiService.Controllers.TaskController",
-    "Method": "GetTaskStatus",
+    "Method": "GetTaskProgress",
     "RelativePath": "api/Task/taskStatus/{taskId}",
     "HttpMethod": "GET",
     "IsController": true,

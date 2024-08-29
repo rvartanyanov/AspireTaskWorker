@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspireTaskWorker.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b9d71955133c0ab023f82ba1de5b8148e8b4af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a127b075da34b177540bf46a469050e5267454c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspireTaskWorker.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspireTaskWorker.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,21 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="RabbitMQ\MessageReciever.cs" />
-    <Compile Remove="RabbitMQ\MessageSender.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AspireTaskWorker.ServiceDefaults\AspireTaskWorker.ServiceDefaults.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="RabbitMQ\MessageReciever.cs" />
-    <None Include="RabbitMQ\MessageSender.cs" />
   </ItemGroup>
 
 </Project>

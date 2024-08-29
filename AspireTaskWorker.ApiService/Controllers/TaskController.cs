@@ -35,7 +35,7 @@ namespace AspireTaskWorker.ApiService.Controllers
         }
 
         [HttpGet("taskStatus/{taskId}")]
-        public IActionResult GetTaskStatus(string taskId)
+        public IActionResult GetTaskProgress(string taskId)
         {
             if (taskListDictionary.TryGetValue(taskId, out var progress))
             {

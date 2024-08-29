@@ -24,7 +24,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspireTaskWorker.AppHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+896d57b62edb57a61fa3451257e8f74d8e2601f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a127b075da34b177540bf46a469050e5267454c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspireTaskWorker.AppHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspireTaskWorker.AppHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
