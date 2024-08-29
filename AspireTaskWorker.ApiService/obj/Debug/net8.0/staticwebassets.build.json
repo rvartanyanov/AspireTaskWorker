@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dcE79HYjdsGcL6aVFIctukQprslDDcTpFaaiouq7isE=",
+  "Source": "AspireTaskWorker.ApiService",
+  "BasePath": "_content/AspireTaskWorker.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

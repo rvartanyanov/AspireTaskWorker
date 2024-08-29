@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "AspireTaskWorker.ApiService.Controllers.TaskController",
+    "Method": "StartTask",
+    "RelativePath": "api/Task/startTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AspireTaskWorker.ApiService.Controllers.TaskController",
+    "Method": "GetTaskStatus",
+    "RelativePath": "api/Task/taskStatus/{taskId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

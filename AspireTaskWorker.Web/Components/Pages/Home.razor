@@ -1,0 +1,53 @@
+﻿@page "/"
+@using AspireTaskWorker.ApiService.Controllers
+@inject TaskWorkerApiClient taskWorkerApi
+
+@rendermode InteractiveServer
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, welcome to the Task Monitor!</h1>
+
+<button class="btn btn-primary" @onclick="StartTask">Start Task</button>
+
+<ul>
+    @if (tasks != null && tasks.Any())
+    {
+        @foreach (var task in tasks)
+        {
+            <li>
+                Task ID: @task.Id - Status: @task.Status - Progress: @task.Progress%
+            </li>
+        }
+    }
+</ul>
+
+@code {
+    private List<TaskProgress>? tasks = new List<TaskProgress>();
+    private string? taskId;
+
+    private async Task StartTask()
+    {
+        // Start a new task and get the task ID
+        taskId = await taskWorkerApi.StartTask();
+
+        // Add the new task to the list and initialize its status
+        var newTask = new TaskProgress { Id = taskId, Status = "Started", Progress = 0 };
+        tasks.Add(newTask);
+
+        // Update the task progress asynchronously
+        _ = UpdateTaskProgress(taskId, newTask);
+    }
+
+    private async Task UpdateTaskProgress(string taskId, TaskProgress task)
+    {
+        while (task.Status != "Completed")
+        {
+            var status = await taskWorkerApi.CheckTaskStatus(taskId);
+            task.Status = status.Status;
+            task.Progress = status.Progress;
+            StateHasChanged(); // Request UI update
+            await Task.Delay(2000); // Update every 2 seconds
+        }
+    }
+}

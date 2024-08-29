@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspireTaskWorker.ApiService.props" />
+</Project>

@@ -1,0 +1,12 @@
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\bin\Debug\net8.0\AspireTaskWorker.ServiceDefaults.deps.json
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\bin\Debug\net8.0\AspireTaskWorker.ServiceDefaults.dll
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\bin\Debug\net8.0\AspireTaskWorker.ServiceDefaults.pdb
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.AssemblyInfo.cs
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.dll
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\refint\AspireTaskWorker.ServiceDefaults.dll
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\AspireTaskWorker.ServiceDefaults.pdb
+C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ServiceDefaults\obj\Debug\net8.0\ref\AspireTaskWorker.ServiceDefaults.dll
