@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bgVOu9h7DT8=",
+  "dgSpecHash": "2sFODX1m04Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\AspireTaskWorker.Web.csproj",
+  "projectFilePath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\AspireTaskWorker.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rvart\\.nuget\\packages\\aspire.stackexchange.redis\\8.1.0\\aspire.stackexchange.redis.8.1.0.nupkg.sha512",
     "C:\\Users\\rvart\\.nuget\\packages\\aspire.stackexchange.redis.outputcaching\\8.1.0\\aspire.stackexchange.redis.outputcaching.8.1.0.nupkg.sha512",

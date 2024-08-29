@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MyZWi07qml0=",
+  "dgSpecHash": "N/rJs18TKJ8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.AppHost\\AspireTaskWorker.AppHost.csproj",
+  "projectFilePath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.AppHost\\AspireTaskWorker.AppHost.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rvart\\.nuget\\packages\\aspire.hosting\\8.1.0\\aspire.hosting.8.1.0.nupkg.sha512",
     "C:\\Users\\rvart\\.nuget\\packages\\aspire.hosting.apphost\\8.1.0\\aspire.hosting.apphost.8.1.0.nupkg.sha512",

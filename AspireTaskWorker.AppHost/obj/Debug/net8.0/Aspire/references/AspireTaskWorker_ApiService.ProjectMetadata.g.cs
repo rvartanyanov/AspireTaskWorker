@@ -7,5 +7,5 @@ namespace Projects;
 [global::System.Diagnostics.DebuggerDisplay("Type = {GetType().Name,nq}, ProjectPath = {ProjectPath}")]
 public class AspireTaskWorker_ApiService : global::Aspire.Hosting.IProjectMetadata
 {
-    public string ProjectPath => """C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.ApiService\AspireTaskWorker.ApiService.csproj""";
+    public string ProjectPath => """C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.ApiService\AspireTaskWorker.ApiService.csproj""";
 }

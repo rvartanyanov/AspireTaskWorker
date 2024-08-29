@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AspireTaskWorker.Web.bundle.scp.css",
+      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AspireTaskWorker.Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\AspireTaskWorker.Web.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\app.css",
+      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

@@ -8,5 +8,5 @@ namespace Projects;
 public class AspireTaskWorker_AppHost
 {
     private AspireTaskWorker_AppHost() { }
-    public static string ProjectPath => """C:\Users\rvart\source\repos\AspireTaskWorker\AspireTaskWorker.AppHost""";
+    public static string ProjectPath => """C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.AppHost""";
 }

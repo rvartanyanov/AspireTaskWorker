@@ -2735,11 +2735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.AppHost\\AspireTaskWorker.AppHost.csproj",
+      "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.AppHost\\AspireTaskWorker.AppHost.csproj",
       "projectName": "AspireTaskWorker.AppHost",
-      "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.AppHost\\AspireTaskWorker.AppHost.csproj",
+      "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.AppHost\\AspireTaskWorker.AppHost.csproj",
       "packagesPath": "C:\\Users\\rvart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.AppHost\\obj\\",
+      "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.AppHost\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rvart\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2592,11 +2592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\AspireTaskWorker.Web.csproj",
+      "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\AspireTaskWorker.Web.csproj",
       "projectName": "AspireTaskWorker.Web",
-      "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\AspireTaskWorker.Web.csproj",
+      "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\AspireTaskWorker.Web.csproj",
       "packagesPath": "C:\\Users\\rvart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\",
+      "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rvart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2614,11 +2614,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj": {
-              "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj"
+            "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj": {
+              "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj"
             },
-            "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj"
+            "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj"
             }
           }
         }

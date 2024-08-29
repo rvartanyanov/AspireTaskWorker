@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "0iHffjthyiyelgmwcCJa9crAAS/iwd4/iLcivCoAz8c=",
+  "Hash": "NrUFuZ8lNG/Nz5UO7s52MQniGYO6Y01t2eu6hQBxSe8=",
   "Source": "AspireTaskWorker.Web",
   "BasePath": "_content/AspireTaskWorker.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
       "Version": 2,
       "Source": "AspireTaskWorker.ApiService",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "AspireTaskWorker.Web\\wwwroot",
       "Source": "AspireTaskWorker.Web",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AspireTaskWorker.Web.styles.css",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AspireTaskWorker.Web.styles.css",
       "SourceId": "AspireTaskWorker.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "RelativePath": "AspireTaskWorker.Web.styles.css",
       "AssetKind": "All",
@@ -45,13 +45,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AspireTaskWorker.Web.styles.css"
+      "OriginalItemSpec": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AspireTaskWorker.Web.styles.css"
     },
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AspireTaskWorker.Web.bundle.scp.css",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AspireTaskWorker.Web.bundle.scp.css",
       "SourceId": "AspireTaskWorker.Web",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "RelativePath": "AspireTaskWorker.Web.bundle.scp.css",
       "AssetKind": "All",
@@ -64,13 +64,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AspireTaskWorker.Web.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AspireTaskWorker.Web.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\app.css",
       "SourceId": "AspireTaskWorker.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -86,10 +86,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "AspireTaskWorker.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -105,10 +105,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "AspireTaskWorker.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -124,10 +124,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\favicon.png",
       "SourceId": "AspireTaskWorker.Web",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.Web\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.Web\\wwwroot\\",
       "BasePath": "_content/AspireTaskWorker.Web",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

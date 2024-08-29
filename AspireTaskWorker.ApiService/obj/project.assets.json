@@ -2234,11 +2234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
+      "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
       "projectName": "AspireTaskWorker.ApiService",
-      "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
+      "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
       "packagesPath": "C:\\Users\\rvart\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ApiService\\obj\\",
+      "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rvart\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2256,8 +2256,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {
-              "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj"
+            "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {
+              "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj"
             }
           }
         }

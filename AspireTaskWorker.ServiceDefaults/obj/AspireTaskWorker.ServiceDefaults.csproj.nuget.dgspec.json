@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {}
+    "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {
+    "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj",
+        "projectUniqueName": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj",
         "projectName": "AspireTaskWorker.ServiceDefaults",
-        "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj",
+        "projectPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\AspireTaskWorker.ServiceDefaults.csproj",
         "packagesPath": "C:\\Users\\rvart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorker\\AspireTaskWorker.ServiceDefaults\\obj\\",
+        "outputPath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ServiceDefaults\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rvart\\AppData\\Roaming\\NuGet\\NuGet.Config",
