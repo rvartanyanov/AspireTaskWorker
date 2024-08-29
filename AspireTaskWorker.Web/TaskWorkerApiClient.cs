@@ -1,4 +1,5 @@
-﻿using AspireTaskWorker.ApiService.Controllers;
+﻿using AspireTaskWorker.ApiService.Models;
+using AspireTaskWorker.Web.Services;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;

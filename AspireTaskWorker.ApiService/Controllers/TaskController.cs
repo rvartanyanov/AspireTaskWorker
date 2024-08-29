@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AspireTaskWorker.ApiService.Models;
+using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
@@ -8,15 +10,26 @@ namespace AspireTaskWorker.ApiService.Controllers
     [Route("api/[controller]")]
     public class TaskController : ControllerBase
     {
-        private static readonly ConcurrentDictionary<string, TaskProgress> TaskList = new ConcurrentDictionary<string, TaskProgress>();
+        // Store tasks in a dictionary by taskId
+        private static readonly ConcurrentDictionary<string, TaskProgress> taskListDictionary = new ConcurrentDictionary<string, TaskProgress>();
 
         [HttpPost("startTask")]
         public IActionResult StartTask()
         {
             var taskId = Guid.NewGuid().ToString();
-            TaskList[taskId] = new TaskProgress { Status = "Started", Progress = 0 };
 
-            _ = Task.Run(() => SimulateTask(taskId));
+            // Creates new task and adds it to the list.
+            var initialProgress = new TaskProgress
+            {
+                Id = taskId,
+                Status = "Started",
+                Progress = 0
+            };
+
+            taskListDictionary[taskId] = initialProgress;
+
+            // Task.Run is used to run a piece of code asynchronously
+            Task.Run(() => SimulateTaskAsync(taskId));
 
             return Ok(taskId);
         }
@@ -24,24 +37,40 @@ namespace AspireTaskWorker.ApiService.Controllers
         [HttpGet("taskStatus/{taskId}")]
         public IActionResult GetTaskStatus(string taskId)
         {
-            return TaskList.TryGetValue(taskId, out var progress) ? Ok(progress) : NotFound("No task found");
+            if (taskListDictionary.TryGetValue(taskId, out var progress))
+            {
+                return Ok(progress);
+            }
+
+            return NotFound("No task found");
         }
 
-        private async Task SimulateTask(string taskId)
+        private async Task SimulateTaskAsync(string taskId)
         {
-            for (int i = 0; i <= 100; i += 2)
+            for (int progress = 0; progress <= 100; progress += 2)
             {
-                await Task.Delay(1000); // Simulate work
-                TaskList[taskId].Progress = i;
-                TaskList[taskId].Status = i == 100 ? "Completed" : "In Progress";
+                await Task.Delay(1000); // Simulate work with a delay
+
+                UpdateTaskProgress(taskId, progress);
+
+                UpdateTaskStatus(taskId, progress);
             }
         }
-    }
 
-    public class TaskProgress
-    {
-        public string Id { get; set; }
-        public string Status { get; set; }
-        public int Progress { get; set; }
+        private void UpdateTaskProgress(string taskId, int progress)
+        {
+            if (taskListDictionary.TryGetValue(taskId, out var taskProgress))
+            {
+                taskProgress.Progress = progress;
+            }
+        }
+
+        private void UpdateTaskStatus(string taskId, int progress)
+        {
+            if (taskListDictionary.TryGetValue(taskId, out var taskProgress))
+            {
+                taskProgress.Status = progress == 100 ? "Completed" : "In Progress";
+            }
+        }
     }
 }

@@ -1,5 +1,6 @@
 using AspireTaskWorker.Web;
 using AspireTaskWorker.Web.Components;
+using AspireTaskWorker.Web.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,7 +11,7 @@ builder.AddRedisOutputCache("cache");
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-
+builder.Services.AddSingleton<RedisCacheService>();
 builder.Services.AddHttpClient<TaskWorkerApiClient>(client =>
 {
     // This URL uses "https+http://" to indicate HTTPS is preferred over HTTP.

@@ -1,7 +1,8 @@
 ﻿@page "/"
-@using AspireTaskWorker.ApiService.Controllers
+@using AspireTaskWorker.ApiService.Models
+@using AspireTaskWorker.Web.Services
 @inject TaskWorkerApiClient taskWorkerApi
-
+@inject RedisCacheService redis
 @rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
@@ -9,22 +10,31 @@
 <h1>Hello, welcome to the Task Monitor!</h1>
 
 <button class="btn btn-primary" @onclick="StartTask">Start Task</button>
+<br />
+<input type="text" @bind="taskIdCheck" placeholder="Task ID" />
+<button class="btn btn-primary" @onclick="CheckTask">Check Task</button>
+<p>TaskID: @taskIdCheck, Progress: @progress % </p>
+
 
 <ul>
     @if (tasks != null && tasks.Any())
     {
+        <p>Running tasks:</p>
+
         @foreach (var task in tasks)
         {
             <li>
-                Task ID: @task.Id - Status: @task.Status - Progress: @task.Progress%
+                Task ID: @task
             </li>
         }
     }
 </ul>
 
 @code {
-    private List<TaskProgress>? tasks = new List<TaskProgress>();
+    private List<string> tasks = new List<string>();
     private string? taskId;
+    private string? taskIdCheck;
+    private string? progress;
 
     private async Task StartTask()
     {
@@ -33,7 +43,10 @@
 
         // Add the new task to the list and initialize its status
         var newTask = new TaskProgress { Id = taskId, Status = "Started", Progress = 0 };
-        tasks.Add(newTask);
+
+        tasks.Add(taskId);
+
+        redis.SetTaskProgress(newTask.Id, newTask.Progress);
 
         // Update the task progress asynchronously
         _ = UpdateTaskProgress(taskId, newTask);
@@ -46,8 +59,29 @@
             var status = await taskWorkerApi.CheckTaskStatus(taskId);
             task.Status = status.Status;
             task.Progress = status.Progress;
+
+            redis.SetTaskProgress(taskId, status.Progress);
+
             StateHasChanged(); // Request UI update
             await Task.Delay(2000); // Update every 2 seconds
+        }
+    }
+    private void CheckTask()
+    {
+        if (!string.IsNullOrEmpty(taskIdCheck))
+        {
+            var taskProgress = redis.GetTaskProgress(taskIdCheck);
+            if (string.IsNullOrEmpty(taskProgress))
+            {
+                progress = "0";
+            }
+            else
+            {
+                redis.SetTaskProgress(taskIdCheck, int.Parse(taskProgress));
+                progress = taskProgress;
+            }
+
+            StateHasChanged();
         }
     }
 }

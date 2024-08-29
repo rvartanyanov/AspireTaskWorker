@@ -123,3 +123,4 @@ C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.ApiService\obj
 C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.ApiService\obj\Debug\net8.0\AspireTaskWorker.ApiService.pdb
 C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.ApiService\obj\Debug\net8.0\AspireTaskWorker.ApiService.genruntimeconfig.cache
 C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.ApiService\obj\Debug\net8.0\ref\AspireTaskWorker.ApiService.dll
+C:\Users\rvart\source\repos\AspireTaskWorkerRepo\AspireTaskWorker.ApiService\bin\Debug\net8.0\RabbitMQ.Client.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "i4N8HB1PN2c=",
+  "dgSpecHash": "UWmC7ok+DyA=",
   "success": true,
   "projectFilePath": "C:\\Users\\rvart\\source\\repos\\AspireTaskWorkerRepo\\AspireTaskWorker.ApiService\\AspireTaskWorker.ApiService.csproj",
   "expectedPackageFiles": [
@@ -49,8 +49,10 @@
     "C:\\Users\\rvart\\.nuget\\packages\\polly.core\\8.4.1\\polly.core.8.4.1.nupkg.sha512",
     "C:\\Users\\rvart\\.nuget\\packages\\polly.extensions\\8.4.1\\polly.extensions.8.4.1.nupkg.sha512",
     "C:\\Users\\rvart\\.nuget\\packages\\polly.ratelimiting\\8.4.1\\polly.ratelimiting.8.4.1.nupkg.sha512",
+    "C:\\Users\\rvart\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\rvart\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "C:\\Users\\rvart\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\rvart\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\rvart\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\rvart\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
   ],
   "logs": []
